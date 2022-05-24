@@ -1,0 +1,140 @@
+body{
+    background-color: bisque;
+}
+
+.heading{
+    text-align: center;
+    cursor: pointer;
+}
+.heading:hover{
+    color: darkorange;
+    background-color: chartreuse;
+    transition: all 3s;
+}
+
+.container{
+    border: 2px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+    color:RED;
+    text-align:center;
+    margin: 150px;
+    
+}
+.one{
+    border: 0.5px solid black;
+    margin: 0.25rem;
+    width: 80px;
+    text-align: center;
+    background-color: brown;
+    color: yellow;
+    text-shadow: 2rem;
+    cursor: pointer;
+    
+}
+.one:hover{
+    color: aqua;
+    background-color: black;
+    transition: all 2s
+}
+
+
+
+.two{
+    border: 0.5px solid black;
+    margin: 0.25rem;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(42, 59, 36);
+    color: rgb(60, 0, 255);
+    text-shadow: 2rem;
+    cursor: pointer;
+    
+}
+.two:hover{
+    color: aqua;
+    background-color: black;
+    transition: all 2s
+}
+
+
+
+.three{
+    border: 0.5px solid rgb(168, 19, 19);
+    margin: 0.25rem;
+    width: 80px;
+    text-align: center;
+    background-color:chocolate;
+    color:black;
+    text-shadow: 2rem;
+    cursor: pointer;
+    
+}
+.three:hover{
+    color: black;
+    background-color: rgb(182, 173, 166);
+    transition: all 2s
+}
+
+
+
+.four{
+    border: 0.5px solid black;
+    margin: 0.25rem;
+    width: 80px;
+    text-align: center;
+    background-color: brown;
+    color: yellow;
+    text-shadow: 2rem;
+    cursor: pointer;
+    
+}
+.four:hover{
+    color: aqua;
+    background-color: black;
+    transition: all 2s
+}
+
+
+
+.five{
+    border: 0.5px solid black;
+    margin: 0.25rem;
+    width: 80px;
+    text-align: center;
+    background-color: brown;
+    color: yellow;
+    text-shadow: 2rem;
+    cursor: pointer;
+    
+}
+.five:hover{
+    color: aqua;
+    background-color: black;
+    transition: all 2s
+}
+
+
+
+.six{
+    border: 0.5px solid black;
+    margin: 0.25rem;
+    width: 80px;
+    text-align: center;
+    background-color: brown;
+    color: yellow;
+    text-shadow: 2rem;
+    cursor: pointer;
+    
+}
+.six:hover{
+    color: aqua;
+    background-color: black;
+    transition: all 2s
+}
+
+.name{
+  letter-spacing: 13px;
+}
+
+

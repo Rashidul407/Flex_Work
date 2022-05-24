@@ -1,0 +1,117 @@
+.container{
+    border: 1px solid blueviolet;
+    background-color: bisque;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+  
+    justify-content:space-between;
+    
+    
+   
+}
+.first{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: coral;
+    text-align: center;
+}
+
+.two{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: darkkhaki;
+    text-align: center;
+
+}
+
+.three{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: cornflowerblue;
+
+}
+
+.four{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: brown;
+
+}
+
+.five{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightcoral;
+
+}
+
+.six{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightpink;
+
+}
+
+.seven{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: mediumpurple;
+
+}
+
+.eight{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: limegreen;
+
+}
+
+.nine{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: cyan;
+
+}
+body{
+    padding: 4rem;
+    background-color: burlywood;
+    
+}
+.first,.two{
+
+    min-width: 200px;
+    cursor : pointer
+
+
+
+}
+
+.first:hover,.two:hover{
+
+    color:red;
+    background-color: aqua;
+    transition : all 2s
+
+
+
+
+}
+
+@media (max-width:576px) {
+    .first,.two{
+        width: 0 auto;
+       
+    }
+    
+}
+
